@@ -20,8 +20,11 @@
 ## About The Project
 
 The idea behind this project, is to make a very minimalist control app
-to toggle a Tasmota drive fan that i have at home, feel free to contribute
-or fork it to change it to whatever you need. It's a pure React Native app. No dependencies.
+to toggle a Tasmota driven fan that i have at home, feel free to contribute
+or fork it to change it to whatever you need. The app will poll the switch state
+using Tasmota's WEB API and toggle the fan to ON/OFF state.
+
+It's a pure React Native app. No dependencies.
 
 ### Built With
 
