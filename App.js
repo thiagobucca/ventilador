@@ -4,14 +4,12 @@
  * @flow strict-local
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
+  ActivityIndicator, SafeAreaView,
+  StatusBar, StyleSheet,
   Text,
-  StatusBar,
-  TouchableWithoutFeedback,
-  ActivityIndicator
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
@@ -49,8 +47,6 @@ const App: () => React$Node = () => {
     setMounted(true)
   }, [])
 
-
-
   const toggleRequest = async () => {
     let url = `${baseURL}Power%20${toggleFan ? 'OFF' : 'TOGGLE'
       }`;
@@ -61,12 +57,9 @@ const App: () => React$Node = () => {
     return body;
   };
 
-
-
   return (
     <>
       <StatusBar barStyle={toggleFan ? 'dark-content' : 'light-content'} />
-
       <TouchableWithoutFeedback onPress={() => toggleRequest()}>
         <SafeAreaView style={[styles.container, colorStyles]}>
           {loading && (
