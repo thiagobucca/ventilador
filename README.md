@@ -19,7 +19,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The idea of this project is to make a very minimalist control app
+The idea behind this project, is to make a very minimalist control app
 to toggle a Tasmota drive fan that i have at home, feel free to contribute
 or fork it to change it to whatever you need. It's a pure React Native app. No dependencies.
 
