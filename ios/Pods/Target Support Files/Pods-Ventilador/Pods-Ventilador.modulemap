@@ -1,0 +1,6 @@
+module Pods_Ventilador {
+  umbrella header "Pods-Ventilador-umbrella.h"
+
+  export *
+  module * { export * }
+}
