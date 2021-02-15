@@ -54,4 +54,4 @@ It's a pure React Native app. No dependencies.
 Distributed under the GNU License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshots.png
