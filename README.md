@@ -19,6 +19,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Product Name Screen Shot][product-screenshot]](https://github.com/thiagobucca/ventilador)
+
 The idea behind this project, is to make a very minimalist control app
 to toggle a Tasmota driven fan that i have at home, feel free to contribute
 or fork it to change it to whatever you need. The app will poll the switch state
@@ -51,3 +53,5 @@ It's a pure React Native app. No dependencies.
 
 Distributed under the GNU License. See `LICENSE` for more information.
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: images/screenshot.png
